@@ -70,7 +70,7 @@ $(function(){
   $('#p2').html(dm.donutsCount[22]);
   $('#p3').html(dm.donutsCount[23]);
   $(".down").hide();
-  $(".d1").on("click", function(){
+  $(".d1").click(function(){
     $(".down").toggle();
   });
 
